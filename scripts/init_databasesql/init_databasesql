@@ -1,0 +1,17 @@
+--craete database and schema
+use master;
+
+
+create datawarehouse;
+go
+
+use DataWarehouse;
+go
+
+create schema bronze;
+go
+
+create schema silver;
+go
+
+create schema gold;
